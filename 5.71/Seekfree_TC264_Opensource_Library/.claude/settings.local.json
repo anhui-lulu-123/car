@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(c|h\\)$\")",
+      "Read(//mnt/d/**)",
+      "Read(//Users/**)"
+    ]
+  }
+}

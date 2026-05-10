@@ -1,0 +1,2750 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc11340a --dep-file=Matrix.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc26xb -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\code -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/Matrix.src ../code/Matrix.c"
+	.compiler_name		"ctc"
+	;source	'../code/Matrix.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Matrix.arm_mat_reset_f32',code,cluster('arm_mat_reset_f32')
+	.sect	'.text.Matrix.arm_mat_reset_f32'
+	.align	2
+	
+	.global	arm_mat_reset_f32
+; Function arm_mat_reset_f32
+.L64:
+arm_mat_reset_f32:	.type	func
+	ld.a	a15,[a4]4
+.L271:
+	ld.hu	d15,[a4]0
+.L398:
+	ld.hu	d0,[a4]2
+.L272:
+	mul	d15,d0
+.L399:
+	j	.L2
+.L3:
+	mov	d0,#0
+.L400:
+	st.w	[a15],d0
+.L401:
+	add.a	a15,#4
+.L402:
+	add	d15,#-1
+.L2:
+	jge.u	d15,#1,.L3
+.L403:
+	ret
+.L116:
+	
+__arm_mat_reset_f32_function_end:
+	.size	arm_mat_reset_f32,__arm_mat_reset_f32_function_end-arm_mat_reset_f32
+.L85:
+	; End of function
+	
+	.sdecl	'.text.Matrix.arm_mat_init_f32',code,cluster('arm_mat_init_f32')
+	.sect	'.text.Matrix.arm_mat_init_f32'
+	.align	2
+	
+	.global	arm_mat_init_f32
+; Function arm_mat_init_f32
+.L66:
+arm_mat_init_f32:	.type	func
+	st.h	[a4],d4
+.L408:
+	st.h	[a4]2,d5
+.L409:
+	st.a	[a4]4,a5
+.L410:
+	ret
+.L123:
+	
+__arm_mat_init_f32_function_end:
+	.size	arm_mat_init_f32,__arm_mat_init_f32_function_end-arm_mat_init_f32
+.L90:
+	; End of function
+	
+	.sdecl	'.text.Matrix.arm_mat_add_f32',code,cluster('arm_mat_add_f32')
+	.sect	'.text.Matrix.arm_mat_add_f32'
+	.align	2
+	
+	.global	arm_mat_add_f32
+; Function arm_mat_add_f32
+.L68:
+arm_mat_add_f32:	.type	func
+	ld.a	a15,[a4]4
+.L274:
+	ld.a	a2,[a5]4
+.L275:
+	ld.a	a5,[a6]4
+.L273:
+	ld.hu	d15,[a4]0
+.L415:
+	ld.hu	d0,[a4]2
+.L276:
+	mul	d15,d0
+.L416:
+	j	.L4
+.L5:
+	ld.w	d0,[a15]
+.L417:
+	ld.w	d1,[a2]
+.L418:
+	add.f	d0,d0,d1
+.L419:
+	st.w	[a5],d0
+.L420:
+	add.a	a2,#4
+.L421:
+	add.a	a15,#4
+.L422:
+	add.a	a5,#4
+.L423:
+	add	d15,#-1
+.L4:
+	jge.u	d15,#1,.L5
+.L424:
+	mov	d2,#0
+.L277:
+	j	.L6
+.L6:
+	ret
+.L130:
+	
+__arm_mat_add_f32_function_end:
+	.size	arm_mat_add_f32,__arm_mat_add_f32_function_end-arm_mat_add_f32
+.L95:
+	; End of function
+	
+	.sdecl	'.text.Matrix.arm_mat_sub_f32',code,cluster('arm_mat_sub_f32')
+	.sect	'.text.Matrix.arm_mat_sub_f32'
+	.align	2
+	
+	.global	arm_mat_sub_f32
+; Function arm_mat_sub_f32
+.L70:
+arm_mat_sub_f32:	.type	func
+	ld.a	a15,[a4]4
+.L279:
+	ld.a	a2,[a5]4
+.L280:
+	ld.a	a5,[a6]4
+.L278:
+	ld.hu	d15,[a4]0
+.L429:
+	ld.hu	d0,[a4]2
+.L281:
+	mul	d15,d0
+.L430:
+	j	.L7
+.L8:
+	ld.w	d0,[a15]
+.L431:
+	ld.w	d1,[a2]
+.L432:
+	sub.f	d0,d0,d1
+.L433:
+	st.w	[a5],d0
+.L434:
+	add.a	a2,#4
+.L435:
+	add.a	a15,#4
+.L436:
+	add.a	a5,#4
+.L437:
+	add	d15,#-1
+.L7:
+	jge.u	d15,#1,.L8
+.L438:
+	mov	d2,#0
+.L282:
+	j	.L9
+.L9:
+	ret
+.L141:
+	
+__arm_mat_sub_f32_function_end:
+	.size	arm_mat_sub_f32,__arm_mat_sub_f32_function_end-arm_mat_sub_f32
+.L100:
+	; End of function
+	
+	.sdecl	'.text.Matrix.arm_mat_mult_f32',code,cluster('arm_mat_mult_f32')
+	.sect	'.text.Matrix.arm_mat_mult_f32'
+	.align	2
+	
+	.global	arm_mat_mult_f32
+; Function arm_mat_mult_f32
+.L72:
+arm_mat_mult_f32:	.type	func
+	ld.a	a15,[a4]4
+.L284:
+	ld.a	a2,[a5]4
+.L285:
+	ld.a	a6,[a6]4
+.L283:
+	ld.hu	d0,[a4]0
+.L286:
+	ld.hu	d1,[a5]2
+.L287:
+	ld.hu	d2,[a4]2
+.L288:
+	mov	d3,#0
+.L10:
+	mul	d15,d3,#4
+	addsc.a	a4,a6,d15,#0
+.L290:
+	mov	d4,d1
+.L291:
+	ld.a	a7,[a5]4
+.L11:
+	mov	d5,#0
+.L292:
+	mov.aa	a12,a15
+.L293:
+	mov	d6,d2
+.L294:
+	j	.L12
+.L13:
+	ld.w	d15,[a12]
+.L443:
+	ld.w	d7,[a7]
+.L444:
+	madd.f	d5,d5,d15,d7
+.L445:
+	add.a	a12,#4
+.L446:
+	mul	d15,d1,#4
+	addsc.a	a7,a7,d15,#0
+.L447:
+	add	d6,#-1
+.L12:
+	jge.u	d6,#1,.L13
+.L448:
+	st.w	[a4],d5
+.L449:
+	add.a	a4,#4
+.L450:
+	add	d4,#-1
+.L451:
+	sub	d15,d1,d4
+.L452:
+	mul	d15,d15,#4
+	addsc.a	a7,a2,d15,#0
+.L453:
+	jge.u	d4,#1,.L11
+.L454:
+	add	d3,d1
+.L455:
+	mul	d15,d2,#4
+	addsc.a	a15,a15,d15,#0
+.L456:
+	add	d0,#-1
+.L457:
+	jge.u	d0,#1,.L10
+.L458:
+	mov	d2,#0
+.L289:
+	j	.L14
+.L14:
+	ret
+.L151:
+	
+__arm_mat_mult_f32_function_end:
+	.size	arm_mat_mult_f32,__arm_mat_mult_f32_function_end-arm_mat_mult_f32
+.L105:
+	; End of function
+	
+	.sdecl	'.text.Matrix.arm_mat_trans_f32',code,cluster('arm_mat_trans_f32')
+	.sect	'.text.Matrix.arm_mat_trans_f32'
+	.align	2
+	
+	.global	arm_mat_trans_f32
+; Function arm_mat_trans_f32
+.L74:
+arm_mat_trans_f32:	.type	func
+	ld.a	a15,[a4]4
+.L295:
+	ld.a	a2,[a5]4
+.L296:
+	ld.hu	d0,[a4]0
+.L297:
+	ld.hu	d1,[a4]2
+.L298:
+	mov	d2,d0
+.L299:
+	mov	d3,#0
+.L15:
+	mul	d15,d3,#4
+	addsc.a	a4,a2,d15,#0
+.L301:
+	mov	d4,d1
+.L302:
+	j	.L16
+.L17:
+	ld.w	d15,[a15]
+.L463:
+	st.w	[a4],d15
+.L464:
+	add.a	a15,#4
+.L465:
+	mul	d15,d0,#4
+	addsc.a	a4,a4,d15,#0
+.L466:
+	add	d4,#-1
+.L16:
+	jge.u	d4,#1,.L17
+.L467:
+	add	d3,#1
+.L468:
+	add	d2,#-1
+.L469:
+	jge.u	d2,#1,.L15
+.L470:
+	mov	d2,#0
+.L300:
+	j	.L18
+.L18:
+	ret
+.L171:
+	
+__arm_mat_trans_f32_function_end:
+	.size	arm_mat_trans_f32,__arm_mat_trans_f32_function_end-arm_mat_trans_f32
+.L110:
+	; End of function
+	
+	.sdecl	'.text.Matrix.arm_mat_inverse_f32',code,cluster('arm_mat_inverse_f32')
+	.sect	'.text.Matrix.arm_mat_inverse_f32'
+	.align	2
+	
+	.global	arm_mat_inverse_f32
+; Function arm_mat_inverse_f32
+.L76:
+arm_mat_inverse_f32:	.type	func
+	ld.a	a15,[a5]4
+.L303:
+	ld.hu	d2,[a4]0
+.L304:
+	ld.hu	d3,[a4]2
+.L306:
+	mov	d5,#0
+.L307:
+	mov	d4,#0
+.L309:
+	mov	d15,d2
+.L310:
+	j	.L19
+.L20:
+	sub	d0,d2,d15
+.L311:
+	j	.L21
+.L22:
+	mov	d1,#0
+.L475:
+	st.w	[a15],d1
+.L476:
+	add.a	a15,#4
+.L477:
+	add	d0,#-1
+.L21:
+	jge.u	d0,#1,.L22
+.L478:
+	movh	d0,#16256
+.L312:
+	st.w	[a15],d0
+.L479:
+	add.a	a15,#4
+.L480:
+	add	d0,d15,#-1
+.L313:
+	j	.L23
+.L24:
+	mov	d1,#0
+.L481:
+	st.w	[a15],d1
+.L482:
+	add.a	a15,#4
+.L483:
+	add	d0,#-1
+.L23:
+	jge.u	d0,#1,.L24
+.L484:
+	add	d15,#-1
+.L19:
+	jge.u	d15,#1,.L20
+.L485:
+	mov	d7,#0
+.L314:
+	j	.L25
+.L26:
+	ld.hu	d0,[a4]2
+	madd	d0,d7,d0,d7
+	mul	d15,d0,#4
+	ld.a	a15,[a4]4
+	addsc.a	a15,a15,d15,#0
+.L315:
+	ld.w	d9,[a15]
+.L308:
+	mov	d8,d7
+.L316:
+	add	d0,d7,#1
+.L317:
+	j	.L27
+.L28:
+	ld.hu	d1,[a4]2
+	madd	d1,d7,d1,d0
+	mul	d15,d1,#4
+	ld.a	a15,[a4]4
+	addsc.a	a15,a15,d15,#0
+.L319:
+	ld.w	d1,[a15]
+.L320:
+	insert	d5,d1,#0,#31,#1
+.L321:
+	insert	d6,d9,#0,#31,#1
+.L322:
+	cmp.f	d5,d5,d6
+	extr.u	d15,d5,#2,#1
+.L486:
+	jeq	d15,#0,.L29
+.L487:
+	mov	e8,d1,d0
+.L29:
+	add	d0,#1
+.L27:
+	jlt.u	d0,d2,.L28
+.L323:
+	extr.u	d15,d9,#23,#8
+.L324:
+	ne	d15,d15,#0
+.L488:
+	jeq	d15,#0,.L30
+.L325:
+	jeq	d8,d7,.L31
+.L202:
+	ld.a	a15,[a4]4
+.L326:
+	ld.a	a2,[a4]4
+.L328:
+	ld.hu	d0,[a4]2
+.L318:
+	sub	d1,d0,d7
+.L330:
+	madd	d15,d7,d7,d0
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+.L331:
+	madd	d15,d7,d8,d0
+.L332:
+	mul	d15,d15,#4
+	addsc.a	a2,a2,d15,#0
+	mov	d15,#0
+.L333:
+	j	.L32
+.L33:
+	ld.w	d0,[a15]
+.L335:
+	ld.w	d4,[a2]
+	st.w	[a15],d4
+	add.a	a15,#4
+	st.w	[a2],d0
+	add.a	a2,#4
+	add	d15,#1
+.L32:
+	jlt	d15,d1,.L33
+.L203:
+	ld.a	a15,[a5]4
+.L327:
+	ld.a	a2,[a5]4
+.L329:
+	ld.hu	d0,[a5]2
+.L336:
+	mul	d15,d7,d0
+.L334:
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+	mul	d8,d0
+	mul	d15,d8,#4
+	addsc.a	a2,a2,d15,#0
+	mov	d15,#0
+.L337:
+	j	.L34
+.L35:
+	ld.w	d1,[a15]
+.L338:
+	ld.w	d4,[a2]
+	st.w	[a15],d4
+	add.a	a15,#4
+	st.w	[a2],d1
+	add.a	a2,#4
+	add	d15,#1
+.L34:
+	jlt	d15,d0,.L35
+.L213:
+	mov	d4,#1
+.L31:
+.L30:
+	jeq	d4,#1,.L36
+.L339:
+	extr.u	d15,d9,#23,#8
+.L340:
+	eq	d15,d15,#0
+	jeq	d15,#0,.L37
+.L489:
+	mov	d2,#-5
+.L305:
+	j	.L38
+.L37:
+.L36:
+	movh	d15,#16256
+.L342:
+	div.f	d5,d15,d9
+.L222:
+	ld.a	a15,[a4]4
+.L343:
+	ld.hu	d15,[a4]2
+.L345:
+	sub	d0,d15,d7
+.L347:
+	madd	d15,d7,d7,d15
+.L346:
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+	mov	d15,#0
+.L349:
+	j	.L39
+.L40:
+	ld.w	d1,[a15]
+	mul.f	d1,d1,d5
+	st.w	[a15],d1
+	add.a	a15,#4
+	add	d15,#1
+.L39:
+	jlt	d15,d0,.L40
+.L223:
+	ld.a	a15,[a5]4
+.L344:
+	ld.hu	d0,[a5]2
+.L348:
+	mul	d15,d7,d0
+.L350:
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+	mov	d15,#0
+.L351:
+	j	.L41
+.L42:
+	ld.w	d1,[a15]
+	mul.f	d1,d1,d5
+	st.w	[a15],d1
+	add.a	a15,#4
+	add	d15,#1
+.L41:
+	jlt	d15,d0,.L42
+.L230:
+	mov	d6,#0
+.L352:
+	j	.L43
+.L44:
+	ld.hu	d15,[a4]2
+	madd	d15,d7,d15,d6
+	mul	d15,d15,#4
+	ld.a	a15,[a4]4
+	addsc.a	a15,a15,d15,#0
+.L354:
+	ld.w	d5,[a15]
+.L237:
+	ld.a	a15,[a4]4
+.L355:
+	ld.a	a2,[a4]4
+.L357:
+	ld.hu	d0,[a4]2
+.L359:
+	sub	d8,d0,d7
+.L361:
+	mul	d1,d7,#4
+	mul	d15,d6,d0
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+.L356:
+	addsc.a	a15,a15,d1,#0
+.L362:
+	mul	d1,d7,#4
+	mul	d0,d7
+.L360:
+	mul	d15,d0,#4
+	addsc.a	a2,a2,d15,#0
+.L358:
+	addsc.a	a2,a2,d1,#0
+.L364:
+	mov	d15,#0
+.L366:
+	j	.L45
+.L46:
+	ld.w	d0,[a15]
+	ld.w	d1,[a2]
+	msub.f	d0,d0,d5,d1
+	st.w	[a15],d0
+	add.a	a2,#4
+	add.a	a15,#4
+	add	d15,#1
+.L45:
+	jlt	d15,d8,.L46
+.L238:
+	ld.a	a15,[a5]4
+.L363:
+	ld.a	a2,[a5]4
+.L365:
+	ld.hu	d0,[a5]2
+.L368:
+	mul	d15,d6,d0
+.L367:
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+	mul	d15,d7,d0
+	mul	d15,d15,#4
+	addsc.a	a2,a2,d15,#0
+	mov	d15,#0
+.L369:
+	j	.L47
+.L48:
+	ld.w	d1,[a15]
+	ld.w	d8,[a2]
+	msub.f	d1,d1,d5,d8
+	st.w	[a15],d1
+	add.a	a2,#4
+	add.a	a15,#4
+	add	d15,#1
+.L47:
+	jlt	d15,d0,.L48
+.L246:
+	add	d6,#1
+.L43:
+	jlt.u	d6,d7,.L44
+.L490:
+	add	d8,d7,#1
+.L353:
+	j	.L49
+.L50:
+	ld.hu	d0,[a4]2
+	madd	d0,d7,d0,d8
+	mul	d15,d0,#4
+	ld.a	a15,[a4]4
+	addsc.a	a15,a15,d15,#0
+.L370:
+	ld.w	d5,[a15]
+.L254:
+	ld.a	a15,[a4]4
+.L371:
+	ld.a	a2,[a4]4
+.L373:
+	ld.hu	d0,[a4]2
+.L375:
+	sub	d9,d0,d7
+.L377:
+	mul	d1,d7,#4
+	mul	d6,d8,d0
+	mul	d15,d6,#4
+	addsc.a	a15,a15,d15,#0
+.L372:
+	addsc.a	a15,a15,d1,#0
+.L378:
+	mul	d1,d7,#4
+	mul	d0,d7
+.L376:
+	mul	d15,d0,#4
+	addsc.a	a2,a2,d15,#0
+.L374:
+	addsc.a	a2,a2,d1,#0
+.L380:
+	mov	d15,#0
+.L382:
+	j	.L51
+.L52:
+	ld.w	d0,[a15]
+	ld.w	d1,[a2]
+	msub.f	d0,d0,d5,d1
+	st.w	[a15],d0
+	add.a	a2,#4
+	add.a	a15,#4
+	add	d15,#1
+.L51:
+	jlt	d15,d9,.L52
+.L255:
+	ld.a	a15,[a5]4
+.L379:
+	ld.a	a2,[a5]4
+.L381:
+	ld.hu	d0,[a5]2
+.L384:
+	mul	d15,d8,d0
+.L383:
+	mul	d15,d15,#4
+	addsc.a	a15,a15,d15,#0
+	mul	d15,d7,d0
+	mul	d15,d15,#4
+	addsc.a	a2,a2,d15,#0
+	mov	d15,#0
+.L385:
+	j	.L53
+.L54:
+	ld.w	d1,[a15]
+	ld.w	d6,[a2]
+	msub.f	d1,d1,d5,d6
+	st.w	[a15],d1
+	add.a	a2,#4
+	add.a	a15,#4
+	add	d15,#1
+.L53:
+	jlt	d15,d0,.L54
+.L263:
+	add	d8,#1
+.L49:
+	jlt.u	d8,d2,.L50
+.L491:
+	add	d7,#1
+.L25:
+	jlt.u	d7,d3,.L26
+.L492:
+	mov	d0,#0
+.L386:
+	jeq	d4,#1,.L55
+.L493:
+	extr.u	d15,d5,#23,#8
+	eq	d15,d15,#0
+	jeq	d15,#0,.L56
+.L494:
+	ld.a	a15,[a4]4
+.L387:
+	mov	d1,#0
+.L388:
+	j	.L57
+.L58:
+	mul	d15,d1,#4
+	addsc.a	a2,a15,d15,#0
+	ld.w	d15,[a2]
+.L495:
+	extr.u	d15,d15,#23,#8
+	ne	d15,d15,#0
+.L496:
+	jeq	d15,#0,.L59
+.L497:
+	j	.L60
+.L59:
+	add	d1,#1
+.L57:
+	mul	d15,d2,d3
+.L498:
+	jlt.u	d1,d15,.L58
+.L60:
+	mul	d2,d3
+.L341:
+	jne	d1,d2,.L61
+.L499:
+	mov	d0,#-5
+.L61:
+.L56:
+.L55:
+	mov	d2,d0
+.L389:
+	j	.L62
+.L62:
+.L38:
+	ret
+.L183:
+	
+__arm_mat_inverse_f32_function_end:
+	.size	arm_mat_inverse_f32,__arm_mat_inverse_f32_function_end-arm_mat_inverse_f32
+.L115:
+	; End of function
+	
+	.calls	'arm_mat_reset_f32','',0
+	.calls	'arm_mat_init_f32','',0
+	.calls	'arm_mat_add_f32','',0
+	.calls	'arm_mat_sub_f32','',0
+	.calls	'arm_mat_mult_f32','',0
+	.calls	'arm_mat_trans_f32','',0
+	.calls	'arm_mat_inverse_f32','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L78:
+	.word	1167
+	.half	3
+	.word	.L79
+	.byte	4
+.L77:
+	.byte	1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L80
+.L161:
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'__fabsf',0
+	.word	195
+	.byte	1,1,1,1,4
+	.byte	'f',0
+	.word	195
+	.byte	0
+.L125:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L119:
+	.byte	5
+	.word	195
+	.byte	6,1,88,11,8,7
+	.byte	'numRows',0
+	.word	229
+	.byte	2,2,35,0,7
+	.byte	'numCols',0
+	.word	229
+	.byte	2,2,35,2,7
+	.byte	'pData',0
+	.word	251
+	.byte	4,2,35,4,0
+.L117:
+	.byte	5
+	.word	256
+.L121:
+	.byte	2
+	.byte	'unsigned int',0,4,7
+.L129:
+	.byte	8,1,14,11,1,9
+	.byte	'ARM_MATH_DECOMPOSITION_FAILURE',0,121,9
+	.byte	'ARM_MATH_TEST_FAILURE',0,122,9
+	.byte	'ARM_MATH_SINGULAR',0,123,9
+	.byte	'ARM_MATH_NANINF',0,124,9
+	.byte	'ARM_MATH_SIZE_MISMATCH',0,125,9
+	.byte	'ARM_MATH_LENGTH_ERROR',0,126,9
+	.byte	'ARM_MATH_ARGUMENT_ERROR',0,127,9
+	.byte	'ARM_MATH_SUCCESS',0,0,0,10
+	.word	256
+.L131:
+	.byte	5
+	.word	527
+.L204:
+	.byte	2
+	.byte	'int',0,4,5
+.L209:
+	.byte	10
+	.word	537
+.L211:
+	.byte	10
+	.word	537
+.L218:
+	.byte	10
+	.word	537
+.L220:
+	.byte	10
+	.word	537
+.L226:
+	.byte	10
+	.word	537
+.L228:
+	.byte	10
+	.word	537
+.L233:
+	.byte	10
+	.word	537
+.L235:
+	.byte	10
+	.word	537
+.L242:
+	.byte	10
+	.word	537
+.L244:
+	.byte	10
+	.word	537
+.L250:
+	.byte	10
+	.word	537
+.L252:
+	.byte	10
+	.word	537
+.L259:
+	.byte	10
+	.word	537
+.L261:
+	.byte	10
+	.word	537
+.L267:
+	.byte	10
+	.word	537
+.L269:
+	.byte	10
+	.word	537
+	.byte	2
+	.byte	'short int',0,2,5,11
+	.byte	'__wchar_t',0,2,1,1
+	.word	624
+	.byte	11
+	.byte	'__size_t',0,2,1,1
+	.word	316
+	.byte	11
+	.byte	'__ptrdiff_t',0,2,1,1
+	.word	537
+	.byte	12,1,5
+	.word	692
+	.byte	11
+	.byte	'__codeptr',0,2,1,1
+	.word	694
+	.byte	11
+	.byte	'__intptr_t',0,2,1,1
+	.word	537
+	.byte	11
+	.byte	'__uintptr_t',0,2,1,1
+	.word	316
+	.byte	11
+	.byte	'_iob_flag_t',0,3,82,25
+	.word	229
+	.byte	11
+	.byte	'uint16_t',0,4,246,1,41
+	.word	229
+	.byte	2
+	.byte	'unsigned char',0,1,8,11
+	.byte	'uint8',0,5,105,29
+	.word	794
+	.byte	11
+	.byte	'uint16',0,5,109,29
+	.word	229
+	.byte	2
+	.byte	'unsigned long int',0,4,7,11
+	.byte	'uint32',0,5,113,29
+	.word	840
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,11
+	.byte	'uint64',0,5,118,29
+	.word	876
+	.byte	11
+	.byte	'sint16',0,5,126,29
+	.word	624
+	.byte	2
+	.byte	'long int',0,4,5,11
+	.byte	'sint32',0,5,131,1,29
+	.word	932
+	.byte	2
+	.byte	'long long int',0,8,5,11
+	.byte	'sint64',0,5,138,1,29
+	.word	960
+	.byte	11
+	.byte	'float32',0,5,167,1,29
+	.word	195
+	.byte	13
+	.byte	'void',0,5
+	.word	1010
+	.byte	11
+	.byte	'pvoid',0,6,57,28
+	.word	1016
+	.byte	11
+	.byte	'Ifx_TickTime',0,6,79,28
+	.word	960
+	.byte	2
+	.byte	'char',0,1,6,11
+	.byte	'int8',0,7,54,29
+	.word	1056
+	.byte	11
+	.byte	'int16',0,7,55,29
+	.word	624
+	.byte	11
+	.byte	'int32',0,7,56,29
+	.word	537
+	.byte	11
+	.byte	'int64',0,7,57,29
+	.word	960
+	.byte	11
+	.byte	'arm_status',0,1,24,5
+	.word	332
+	.byte	11
+	.byte	'arm_matrix_instance_f32',0,1,93,5
+	.word	256
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,4,5,0,3,8,73,19,0,0,5,15,0,73,19,0,0,6,19,1,58,15,59,15,57,15,11,15,0,0,7,13,0,3,8,73
+	.byte	19,11,15,56,9,0,0,8,4,1,58,15,59,15,57,15,11,15,0,0,9,40,0,3,8,28,13,0,0,10,38,0,73,19,0,0,11,22,0,3,8
+	.byte	58,15,59,15,57,15,73,19,0,0,12,21,0,54,15,0,0,13,59,0,3,8,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L80:
+	.word	.L391-.L390
+.L390:
+	.half	3
+	.word	.L393-.L392
+.L392:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'C:\\\\Users\\\\15256\\\\Desktop\\\\complete\\\\5.71\\\\5.71\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common',0
+	.byte	0
+	.byte	'..\\code\\Matrix.h',0,0,0,0
+	.byte	'../code/Matrix.c',0,0,0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'ifx_types.h',0,2,0,0
+	.byte	'zf_common_typedef.h',0,3,0,0,0
+.L393:
+.L391:
+	.sdecl	'.debug_info',debug,cluster('arm_mat_reset_f32')
+	.sect	'.debug_info'
+.L81:
+	.word	307
+	.half	3
+	.word	.L82
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L84,.L83
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_reset_f32',0,1,14,6,1,1,1
+	.word	.L64,.L116,.L63
+	.byte	4
+	.byte	'pSrcA',0,1,14,50
+	.word	.L117,.L118
+	.byte	5
+	.word	.L64,.L116
+	.byte	6
+	.byte	'pInA',0,1,16,16
+	.word	.L119,.L120
+	.byte	6
+	.byte	'numSamples',0,1,17,14
+	.word	.L121,.L122
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_reset_f32')
+	.sect	'.debug_abbrev'
+.L82:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_reset_f32')
+	.sect	'.debug_line'
+.L83:
+	.word	.L395-.L394
+.L394:
+	.half	3
+	.word	.L397-.L396
+.L396:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L397:
+	.byte	5,28,7,0,5,2
+	.word	.L64
+	.byte	3,15,1,5,34,9
+	.half	.L271-.L64
+	.byte	3,2,1,5,51,9
+	.half	.L398-.L271
+	.byte	1,5,44,9
+	.half	.L272-.L398
+	.byte	1,5,28,9
+	.half	.L399-.L272
+	.byte	3,1,1,5,17,9
+	.half	.L3-.L399
+	.byte	3,2,1,5,16,9
+	.half	.L400-.L3
+	.byte	1,5,14,9
+	.half	.L401-.L400
+	.byte	1,5,19,9
+	.half	.L402-.L401
+	.byte	3,1,1,5,28,9
+	.half	.L2-.L402
+	.byte	3,125,1,5,1,7,9
+	.half	.L403-.L2
+	.byte	3,5,1,7,9
+	.half	.L85-.L403
+	.byte	0,1,1
+.L395:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_reset_f32')
+	.sect	'.debug_ranges'
+.L84:
+	.word	-1,.L64,0,.L85-.L64,0,0
+	.sdecl	'.debug_info',debug,cluster('arm_mat_init_f32')
+	.sect	'.debug_info'
+.L86:
+	.word	318
+	.half	3
+	.word	.L87
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L89,.L88
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_init_f32',0,1,34,6,1,1,1
+	.word	.L66,.L123,.L65
+	.byte	4
+	.byte	'S',0,1,35,29
+	.word	.L117,.L124
+	.byte	4
+	.byte	'nRows',0,1,36,12
+	.word	.L125,.L126
+	.byte	4
+	.byte	'nColumns',0,1,37,12
+	.word	.L125,.L127
+	.byte	4
+	.byte	'pData',0,1,38,15
+	.word	.L119,.L128
+	.byte	5
+	.word	.L66,.L123
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_init_f32')
+	.sect	'.debug_abbrev'
+.L87:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_init_f32')
+	.sect	'.debug_line'
+.L88:
+	.word	.L405-.L404
+.L404:
+	.half	3
+	.word	.L407-.L406
+.L406:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L407:
+	.byte	5,14,7,0,5,2
+	.word	.L66
+	.byte	3,40,1,9
+	.half	.L408-.L66
+	.byte	3,3,1,5,12,9
+	.half	.L409-.L408
+	.byte	3,3,1,5,1,9
+	.half	.L410-.L409
+	.byte	3,1,1,7,9
+	.half	.L90-.L410
+	.byte	0,1,1
+.L405:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_init_f32')
+	.sect	'.debug_ranges'
+.L89:
+	.word	-1,.L66,0,.L90-.L66,0,0
+	.sdecl	'.debug_info',debug,cluster('arm_mat_add_f32')
+	.sect	'.debug_info'
+.L91:
+	.word	416
+	.half	3
+	.word	.L92
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L94,.L93
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_add_f32',0,1,57,12
+	.word	.L129
+	.byte	1,1,1
+	.word	.L68,.L130,.L67
+	.byte	4
+	.byte	'pSrcA',0,1,58,35
+	.word	.L131,.L132
+	.byte	4
+	.byte	'pSrcB',0,1,59,35
+	.word	.L131,.L133
+	.byte	4
+	.byte	'pDst',0,1,60,35
+	.word	.L117,.L134
+	.byte	5
+	.word	.L68,.L130
+	.byte	6
+	.byte	'pInA',0,1,62,14
+	.word	.L119,.L135
+	.byte	6
+	.byte	'pInB',0,1,63,14
+	.word	.L119,.L136
+	.byte	6
+	.byte	'pOut',0,1,64,14
+	.word	.L119,.L137
+	.byte	6
+	.byte	'numSamples',0,1,66,12
+	.word	.L121,.L138
+	.byte	6
+	.byte	'blkCnt',0,1,67,12
+	.word	.L121,.L139
+	.byte	6
+	.byte	'status',0,1,68,14
+	.word	.L129,.L140
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_add_f32')
+	.sect	'.debug_abbrev'
+.L92:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_add_f32')
+	.sect	'.debug_line'
+.L93:
+	.word	.L412-.L411
+.L411:
+	.half	3
+	.word	.L414-.L413
+.L413:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L414:
+	.byte	5,26,7,0,5,2
+	.word	.L68
+	.byte	3,61,1,9
+	.half	.L274-.L68
+	.byte	3,1,1,5,25,9
+	.half	.L275-.L274
+	.byte	3,1,1,5,34,9
+	.half	.L273-.L275
+	.byte	3,23,1,5,51,9
+	.half	.L415-.L273
+	.byte	1,5,44,9
+	.half	.L276-.L415
+	.byte	1,5,23,9
+	.half	.L416-.L276
+	.byte	3,34,1,5,17,9
+	.half	.L5-.L416
+	.byte	3,5,1,5,27,9
+	.half	.L417-.L5
+	.byte	1,5,25,9
+	.half	.L418-.L417
+	.byte	1,5,15,9
+	.half	.L419-.L418
+	.byte	1,5,32,9
+	.half	.L420-.L419
+	.byte	1,5,22,9
+	.half	.L421-.L420
+	.byte	1,5,12,9
+	.half	.L422-.L421
+	.byte	1,5,13,9
+	.half	.L423-.L422
+	.byte	3,3,1,5,23,9
+	.half	.L4-.L423
+	.byte	3,120,1,5,12,7,9
+	.half	.L424-.L4
+	.byte	3,12,1,5,3,9
+	.half	.L277-.L424
+	.byte	3,4,1,5,1,9
+	.half	.L6-.L277
+	.byte	3,1,1,7,9
+	.half	.L95-.L6
+	.byte	0,1,1
+.L412:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_add_f32')
+	.sect	'.debug_ranges'
+.L94:
+	.word	-1,.L68,0,.L95-.L68,0,0
+	.sdecl	'.debug_info',debug,cluster('arm_mat_sub_f32')
+	.sect	'.debug_info'
+.L96:
+	.word	426
+	.half	3
+	.word	.L97
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L99,.L98
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_sub_f32',0,1,142,1,12
+	.word	.L129
+	.byte	1,1,1
+	.word	.L70,.L141,.L69
+	.byte	4
+	.byte	'pSrcA',0,1,143,1,35
+	.word	.L131,.L142
+	.byte	4
+	.byte	'pSrcB',0,1,144,1,35
+	.word	.L131,.L143
+	.byte	4
+	.byte	'pDst',0,1,145,1,35
+	.word	.L117,.L144
+	.byte	5
+	.word	.L70,.L141
+	.byte	6
+	.byte	'pInA',0,1,147,1,14
+	.word	.L119,.L145
+	.byte	6
+	.byte	'pInB',0,1,148,1,14
+	.word	.L119,.L146
+	.byte	6
+	.byte	'pOut',0,1,149,1,14
+	.word	.L119,.L147
+	.byte	6
+	.byte	'numSamples',0,1,151,1,12
+	.word	.L121,.L148
+	.byte	6
+	.byte	'blkCnt',0,1,152,1,12
+	.word	.L121,.L149
+	.byte	6
+	.byte	'status',0,1,153,1,14
+	.word	.L129,.L150
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_sub_f32')
+	.sect	'.debug_abbrev'
+.L97:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_sub_f32')
+	.sect	'.debug_line'
+.L98:
+	.word	.L426-.L425
+.L425:
+	.half	3
+	.word	.L428-.L427
+.L427:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L428:
+	.byte	5,26,7,0,5,2
+	.word	.L70
+	.byte	3,146,1,1,9
+	.half	.L279-.L70
+	.byte	3,1,1,5,25,9
+	.half	.L280-.L279
+	.byte	3,1,1,5,34,9
+	.half	.L278-.L280
+	.byte	3,23,1,5,51,9
+	.half	.L429-.L278
+	.byte	1,5,44,9
+	.half	.L281-.L429
+	.byte	1,5,23,9
+	.half	.L430-.L281
+	.byte	3,31,1,5,18,9
+	.half	.L8-.L430
+	.byte	3,5,1,5,30,9
+	.half	.L431-.L8
+	.byte	1,5,27,9
+	.half	.L432-.L431
+	.byte	1,5,15,9
+	.half	.L433-.L432
+	.byte	1,5,35,9
+	.half	.L434-.L433
+	.byte	1,5,23,9
+	.half	.L435-.L434
+	.byte	1,5,12,9
+	.half	.L436-.L435
+	.byte	1,5,13,9
+	.half	.L437-.L436
+	.byte	3,3,1,5,23,9
+	.half	.L7-.L437
+	.byte	3,120,1,5,12,7,9
+	.half	.L438-.L7
+	.byte	3,12,1,5,3,9
+	.half	.L282-.L438
+	.byte	3,4,1,5,1,9
+	.half	.L9-.L282
+	.byte	3,1,1,7,9
+	.half	.L100-.L9
+	.byte	0,1,1
+.L426:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_sub_f32')
+	.sect	'.debug_ranges'
+.L99:
+	.word	-1,.L70,0,.L100-.L70,0,0
+	.sdecl	'.debug_info',debug,cluster('arm_mat_mult_f32')
+	.sect	'.debug_info'
+.L101:
+	.word	587
+	.half	3
+	.word	.L102
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L104,.L103
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_mult_f32',0,1,230,1,12
+	.word	.L129
+	.byte	1,1,1
+	.word	.L72,.L151,.L71
+	.byte	4
+	.byte	'pSrcA',0,1,231,1,35
+	.word	.L131,.L152
+	.byte	4
+	.byte	'pSrcB',0,1,232,1,35
+	.word	.L131,.L153
+	.byte	4
+	.byte	'pDst',0,1,233,1,35
+	.word	.L117,.L154
+	.byte	5
+	.word	.L72,.L151
+	.byte	6
+	.byte	'pIn1',0,1,235,1,14
+	.word	.L119,.L155
+	.byte	6
+	.byte	'pIn2',0,1,236,1,14
+	.word	.L119,.L156
+	.byte	6
+	.byte	'pInA',0,1,237,1,14
+	.word	.L119,.L157
+	.byte	6
+	.byte	'pInB',0,1,238,1,14
+	.word	.L119,.L158
+	.byte	6
+	.byte	'pOut',0,1,239,1,14
+	.word	.L119,.L159
+	.byte	6
+	.byte	'px',0,1,240,1,14
+	.word	.L119,.L160
+	.byte	6
+	.byte	'sum',0,1,241,1,13
+	.word	.L161,.L162
+	.byte	6
+	.byte	'numRowsA',0,1,242,1,12
+	.word	.L125,.L163
+	.byte	6
+	.byte	'numColsB',0,1,243,1,12
+	.word	.L125,.L164
+	.byte	6
+	.byte	'numColsA',0,1,244,1,12
+	.word	.L125,.L165
+	.byte	6
+	.byte	'col',0,1,245,1,12
+	.word	.L121,.L166
+	.byte	6
+	.byte	'i',0,1,245,1,17
+	.word	.L121,.L167
+	.byte	6
+	.byte	'row',0,1,245,1,25
+	.word	.L121,.L168
+	.byte	6
+	.byte	'colCnt',0,1,245,1,41
+	.word	.L121,.L169
+	.byte	6
+	.byte	'status',0,1,246,1,14
+	.word	.L129,.L170
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_mult_f32')
+	.sect	'.debug_abbrev'
+.L102:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_mult_f32')
+	.sect	'.debug_line'
+.L103:
+	.word	.L440-.L439
+.L439:
+	.half	3
+	.word	.L442-.L441
+.L441:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L442:
+	.byte	5,26,7,0,5,2
+	.word	.L72
+	.byte	3,236,1,1,9
+	.half	.L284-.L72
+	.byte	3,1,1,5,25,9
+	.half	.L285-.L284
+	.byte	3,1,1,5,28,9
+	.half	.L283-.L285
+	.byte	3,3,1,9
+	.half	.L286-.L283
+	.byte	3,1,1,9
+	.half	.L287-.L286
+	.byte	3,1,1,5,19,9
+	.half	.L288-.L287
+	.byte	3,1,1,5,17,9
+	.half	.L10-.L288
+	.byte	3,23,1,5,11,9
+	.half	.L290-.L10
+	.byte	3,3,1,5,19,9
+	.half	.L291-.L290
+	.byte	3,3,1,5,13,9
+	.half	.L11-.L291
+	.byte	3,6,1,5,14,9
+	.half	.L292-.L11
+	.byte	3,3,1,5,16,9
+	.half	.L293-.L292
+	.byte	3,35,1,5,27,9
+	.half	.L294-.L293
+	.byte	3,4,1,5,18,9
+	.half	.L13-.L294
+	.byte	3,5,1,5,28,9
+	.half	.L443-.L13
+	.byte	1,5,15,9
+	.half	.L444-.L443
+	.byte	1,5,23,9
+	.half	.L445-.L444
+	.byte	1,5,16,9
+	.half	.L446-.L445
+	.byte	3,1,1,5,17,9
+	.half	.L447-.L446
+	.byte	3,3,1,5,27,9
+	.half	.L12-.L447
+	.byte	3,119,1,5,15,7,9
+	.half	.L448-.L12
+	.byte	3,13,1,5,12,9
+	.half	.L449-.L448
+	.byte	1,9
+	.half	.L450-.L449
+	.byte	3,3,1,5,33,9
+	.half	.L451-.L450
+	.byte	3,3,1,5,21,9
+	.half	.L452-.L451
+	.byte	1,5,25,9
+	.half	.L453-.L452
+	.byte	3,2,1,5,13,7,9
+	.half	.L454-.L453
+	.byte	3,3,1,5,19,9
+	.half	.L455-.L454
+	.byte	3,1,1,5,10,9
+	.half	.L456-.L455
+	.byte	3,3,1,5,23,9
+	.half	.L457-.L456
+	.byte	3,2,1,5,12,7,9
+	.half	.L458-.L457
+	.byte	3,3,1,5,3,9
+	.half	.L289-.L458
+	.byte	3,4,1,5,1,9
+	.half	.L14-.L289
+	.byte	3,1,1,7,9
+	.half	.L105-.L14
+	.byte	0,1,1
+.L440:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_mult_f32')
+	.sect	'.debug_ranges'
+.L104:
+	.word	-1,.L72,0,.L105-.L72,0,0
+	.sdecl	'.debug_info',debug,cluster('arm_mat_trans_f32')
+	.sect	'.debug_info'
+.L106:
+	.word	448
+	.half	3
+	.word	.L107
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L109,.L108
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_trans_f32',0,1,235,2,12
+	.word	.L129
+	.byte	1,1,1
+	.word	.L74,.L171,.L73
+	.byte	4
+	.byte	'pSrc',0,1,236,2,35
+	.word	.L131,.L172
+	.byte	4
+	.byte	'pDst',0,1,237,2,35
+	.word	.L117,.L173
+	.byte	5
+	.word	.L74,.L171
+	.byte	6
+	.byte	'pIn',0,1,239,2,14
+	.word	.L119,.L174
+	.byte	6
+	.byte	'pOut',0,1,240,2,14
+	.word	.L119,.L175
+	.byte	6
+	.byte	'px',0,1,241,2,14
+	.word	.L119,.L176
+	.byte	6
+	.byte	'nRows',0,1,242,2,12
+	.word	.L125,.L177
+	.byte	6
+	.byte	'nCols',0,1,243,2,12
+	.word	.L125,.L178
+	.byte	6
+	.byte	'col',0,1,244,2,12
+	.word	.L121,.L179
+	.byte	6
+	.byte	'row',0,1,244,2,17
+	.word	.L121,.L180
+	.byte	6
+	.byte	'i',0,1,244,2,30
+	.word	.L121,.L181
+	.byte	6
+	.byte	'status',0,1,245,2,14
+	.word	.L129,.L182
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_trans_f32')
+	.sect	'.debug_abbrev'
+.L107:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_trans_f32')
+	.sect	'.debug_line'
+.L108:
+	.word	.L460-.L459
+.L459:
+	.half	3
+	.word	.L462-.L461
+.L461:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L462:
+	.byte	5,24,7,0,5,2
+	.word	.L74
+	.byte	3,238,2,1,5,25,9
+	.half	.L295-.L74
+	.byte	3,1,1,5,24,9
+	.half	.L296-.L295
+	.byte	3,2,1,9
+	.half	.L297-.L296
+	.byte	3,1,1,5,21,9
+	.half	.L298-.L297
+	.byte	3,1,1,5,32,9
+	.half	.L299-.L298
+	.byte	1,5,17,9
+	.half	.L15-.L299
+	.byte	3,22,1,5,11,9
+	.half	.L301-.L15
+	.byte	3,33,1,5,22,9
+	.half	.L302-.L301
+	.byte	3,4,1,5,15,9
+	.half	.L17-.L302
+	.byte	3,3,1,5,13,9
+	.half	.L463-.L17
+	.byte	1,5,19,9
+	.half	.L464-.L463
+	.byte	1,5,12,9
+	.half	.L465-.L464
+	.byte	3,3,1,9
+	.half	.L466-.L465
+	.byte	3,3,1,5,22,9
+	.half	.L16-.L466
+	.byte	3,119,1,5,8,7,9
+	.half	.L467-.L16
+	.byte	3,12,1,5,10,9
+	.half	.L468-.L467
+	.byte	3,3,1,5,23,9
+	.half	.L469-.L468
+	.byte	3,2,1,5,12,7,9
+	.half	.L470-.L469
+	.byte	3,3,1,5,3,9
+	.half	.L300-.L470
+	.byte	3,4,1,5,1,9
+	.half	.L18-.L300
+	.byte	3,1,1,7,9
+	.half	.L110-.L18
+	.byte	0,1,1
+.L460:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_trans_f32')
+	.sect	'.debug_ranges'
+.L109:
+	.word	-1,.L74,0,.L110-.L74,0,0
+	.sdecl	'.debug_info',debug,cluster('arm_mat_inverse_f32')
+	.sect	'.debug_info'
+.L111:
+	.word	1396
+	.half	3
+	.word	.L112
+	.byte	4,1
+	.byte	'../code/Matrix.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\15256\\Desktop\\complete\\5.71\\5.71\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L114,.L113
+	.byte	2
+	.word	.L77
+	.byte	3
+	.byte	'arm_mat_inverse_f32',0,1,253,3,12
+	.word	.L129
+	.byte	1,1,1
+	.word	.L76,.L183,.L75
+	.byte	4
+	.byte	'pSrc',0,1,254,3,35
+	.word	.L131,.L184
+	.byte	4
+	.byte	'pDst',0,1,255,3,35
+	.word	.L117,.L185
+	.byte	5
+	.word	.L76,.L183
+	.byte	6
+	.byte	'pIn',0,1,129,4,14
+	.word	.L119,.L186
+	.byte	6
+	.byte	'pOut',0,1,130,4,14
+	.word	.L119,.L187
+	.byte	6
+	.byte	'pTmp',0,1,132,4,14
+	.word	.L119,.L188
+	.byte	6
+	.byte	'numRows',0,1,133,4,12
+	.word	.L121,.L189
+	.byte	6
+	.byte	'numCols',0,1,134,4,12
+	.word	.L121,.L190
+	.byte	6
+	.byte	'pivot',0,1,137,4,13
+	.word	.L161,.L191
+	.byte	6
+	.byte	'newPivot',0,1,137,4,27
+	.word	.L161,.L192
+	.byte	6
+	.byte	'selectedRow',0,1,138,4,12
+	.word	.L121,.L193
+	.byte	6
+	.byte	'pivotRow',0,1,138,4,24
+	.word	.L121,.L194
+	.byte	6
+	.byte	'i',0,1,138,4,33
+	.word	.L121,.L195
+	.byte	6
+	.byte	'rowNb',0,1,138,4,36
+	.word	.L121,.L196
+	.byte	6
+	.byte	'rowCnt',0,1,138,4,43
+	.word	.L121,.L197
+	.byte	6
+	.byte	'flag',0,1,138,4,51
+	.word	.L121,.L198
+	.byte	6
+	.byte	'j',0,1,138,4,62
+	.word	.L121,.L199
+	.byte	6
+	.byte	'column',0,1,138,4,64
+	.word	.L121,.L200
+	.byte	6
+	.byte	'status',0,1,139,4,14
+	.word	.L129,.L201
+	.byte	5
+	.word	.L202,.L203
+	.byte	6
+	.byte	'w',0,1,134,5,13
+	.word	.L204,.L205
+	.byte	6
+	.byte	'tmp',0,1,134,5,13
+	.word	.L161,.L206
+	.byte	6
+	.byte	'dataI',0,1,134,5,13
+	.word	.L119,.L207
+	.byte	6
+	.byte	'dataJ',0,1,134,5,13
+	.word	.L119,.L208
+	.byte	6
+	.byte	'numCols',0,1,134,5,13
+	.word	.L209,.L210
+	.byte	6
+	.byte	'nb',0,1,134,5,13
+	.word	.L211,.L212
+	.byte	0,5
+	.word	.L203,.L213
+	.byte	6
+	.byte	'w',0,1,135,5,13
+	.word	.L204,.L214
+	.byte	6
+	.byte	'tmp',0,1,135,5,13
+	.word	.L161,.L215
+	.byte	6
+	.byte	'dataI',0,1,135,5,13
+	.word	.L119,.L216
+	.byte	6
+	.byte	'dataJ',0,1,135,5,13
+	.word	.L119,.L217
+	.byte	6
+	.byte	'numCols',0,1,135,5,13
+	.word	.L218,.L219
+	.byte	6
+	.byte	'nb',0,1,135,5,13
+	.word	.L220,.L221
+	.byte	0,5
+	.word	.L222,.L223
+	.byte	6
+	.byte	'w',0,1,156,5,7
+	.word	.L204,.L224
+	.byte	6
+	.byte	'data',0,1,156,5,7
+	.word	.L119,.L225
+	.byte	6
+	.byte	'numCols',0,1,156,5,7
+	.word	.L226,.L227
+	.byte	6
+	.byte	'nb',0,1,156,5,7
+	.word	.L228,.L229
+	.byte	0,5
+	.word	.L223,.L230
+	.byte	6
+	.byte	'w',0,1,157,5,7
+	.word	.L204,.L231
+	.byte	6
+	.byte	'data',0,1,157,5,7
+	.word	.L119,.L232
+	.byte	6
+	.byte	'numCols',0,1,157,5,7
+	.word	.L233,.L234
+	.byte	6
+	.byte	'nb',0,1,157,5,7
+	.word	.L235,.L236
+	.byte	0,5
+	.word	.L237,.L238
+	.byte	6
+	.byte	'w',0,1,169,5,12
+	.word	.L204,.L239
+	.byte	6
+	.byte	'dataA',0,1,169,5,12
+	.word	.L119,.L240
+	.byte	6
+	.byte	'dataB',0,1,169,5,12
+	.word	.L119,.L241
+	.byte	6
+	.byte	'numCols',0,1,169,5,12
+	.word	.L242,.L243
+	.byte	6
+	.byte	'nb',0,1,169,5,12
+	.word	.L244,.L245
+	.byte	0,5
+	.word	.L238,.L246
+	.byte	6
+	.byte	'w',0,1,170,5,12
+	.word	.L204,.L247
+	.byte	6
+	.byte	'dataA',0,1,170,5,12
+	.word	.L119,.L248
+	.byte	6
+	.byte	'dataB',0,1,170,5,12
+	.word	.L119,.L249
+	.byte	6
+	.byte	'numCols',0,1,170,5,12
+	.word	.L250,.L251
+	.byte	6
+	.byte	'nb',0,1,170,5,12
+	.word	.L252,.L253
+	.byte	0,5
+	.word	.L254,.L255
+	.byte	6
+	.byte	'w',0,1,180,5,12
+	.word	.L204,.L256
+	.byte	6
+	.byte	'dataA',0,1,180,5,12
+	.word	.L119,.L257
+	.byte	6
+	.byte	'dataB',0,1,180,5,12
+	.word	.L119,.L258
+	.byte	6
+	.byte	'numCols',0,1,180,5,12
+	.word	.L259,.L260
+	.byte	6
+	.byte	'nb',0,1,180,5,12
+	.word	.L261,.L262
+	.byte	0,5
+	.word	.L255,.L263
+	.byte	6
+	.byte	'w',0,1,181,5,12
+	.word	.L204,.L264
+	.byte	6
+	.byte	'dataA',0,1,181,5,12
+	.word	.L119,.L265
+	.byte	6
+	.byte	'dataB',0,1,181,5,12
+	.word	.L119,.L266
+	.byte	6
+	.byte	'numCols',0,1,181,5,12
+	.word	.L267,.L268
+	.byte	6
+	.byte	'nb',0,1,181,5,12
+	.word	.L269,.L270
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('arm_mat_inverse_f32')
+	.sect	'.debug_abbrev'
+.L112:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('arm_mat_inverse_f32')
+	.sect	'.debug_line'
+.L113:
+	.word	.L472-.L471
+.L471:
+	.half	3
+	.word	.L474-.L473
+.L473:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Matrix.c',0,0,0,0,0
+.L474:
+	.byte	5,25,7,0,5,2
+	.word	.L76
+	.byte	3,129,4,1,5,26,9
+	.half	.L303-.L76
+	.byte	3,3,1,9
+	.half	.L304-.L303
+	.byte	3,1,1,5,19,9
+	.half	.L306-.L304
+	.byte	3,3,1,5,56,9
+	.half	.L307-.L306
+	.byte	3,1,1,5,12,9
+	.half	.L309-.L307
+	.byte	3,57,1,5,23,9
+	.half	.L310-.L309
+	.byte	3,3,1,5,19,9
+	.half	.L20-.L310
+	.byte	3,3,1,5,20,9
+	.half	.L311-.L20
+	.byte	3,1,1,5,19,9
+	.half	.L22-.L311
+	.byte	3,2,1,5,17,9
+	.half	.L475-.L22
+	.byte	1,5,14,9
+	.half	.L476-.L475
+	.byte	1,5,10,9
+	.half	.L477-.L476
+	.byte	3,1,1,5,20,9
+	.half	.L21-.L477
+	.byte	3,125,1,5,17,7,9
+	.half	.L478-.L21
+	.byte	3,7,1,5,15,9
+	.half	.L312-.L478
+	.byte	1,5,12,9
+	.half	.L479-.L312
+	.byte	1,5,18,9
+	.half	.L480-.L479
+	.byte	3,3,1,5,20,9
+	.half	.L313-.L480
+	.byte	3,1,1,5,19,9
+	.half	.L24-.L313
+	.byte	3,2,1,5,17,9
+	.half	.L481-.L24
+	.byte	1,5,14,9
+	.half	.L482-.L481
+	.byte	1,5,10,9
+	.half	.L483-.L482
+	.byte	3,1,1,5,20,9
+	.half	.L23-.L483
+	.byte	3,125,1,5,13,7,9
+	.half	.L484-.L23
+	.byte	3,7,1,5,23,9
+	.half	.L19-.L484
+	.byte	3,106,1,5,16,7,9
+	.half	.L485-.L19
+	.byte	3,29,1,5,38,9
+	.half	.L314-.L485
+	.byte	1,5,14,9
+	.half	.L26-.L314
+	.byte	3,10,1,5,15,9
+	.half	.L315-.L26
+	.byte	3,1,1,5,19,9
+	.half	.L308-.L315
+	.byte	3,1,1,5,26,9
+	.half	.L316-.L308
+	.byte	3,6,1,5,45,9
+	.half	.L317-.L316
+	.byte	1,5,18,9
+	.half	.L28-.L317
+	.byte	3,3,1,5,22,9
+	.half	.L319-.L28
+	.byte	3,1,1,5,15,9
+	.half	.L320-.L319
+	.byte	3,1,1,5,33,9
+	.half	.L321-.L320
+	.byte	1,5,31,9
+	.half	.L322-.L321
+	.byte	1,5,11,9
+	.half	.L486-.L322
+	.byte	1,5,25,7,9
+	.half	.L487-.L486
+	.byte	3,2,1,5,52,9
+	.half	.L29-.L487
+	.byte	3,121,1,5,45,9
+	.half	.L27-.L29
+	.byte	1,5,18,7,9
+	.half	.L323-.L27
+	.byte	3,14,1,5,11,9
+	.half	.L488-.L323
+	.byte	1,5,43,7,9
+	.half	.L325-.L488
+	.byte	1,5,13,7,9
+	.half	.L202-.L325
+	.byte	3,3,1,9
+	.half	.L203-.L202
+	.byte	3,1,1,5,18,9
+	.half	.L213-.L203
+	.byte	3,4,1,5,11,9
+	.half	.L30-.L213
+	.byte	3,8,1,5,34,7,9
+	.half	.L339-.L30
+	.byte	1,5,16,9
+	.half	.L489-.L339
+	.byte	3,2,1,5,9,9
+	.half	.L305-.L489
+	.byte	1,5,15,9
+	.half	.L36-.L305
+	.byte	3,5,1,5,20,9
+	.half	.L342-.L36
+	.byte	1,5,7,9
+	.half	.L222-.L342
+	.byte	3,2,1,9
+	.half	.L223-.L222
+	.byte	3,1,1,5,13,9
+	.half	.L230-.L223
+	.byte	3,6,1,5,29,9
+	.half	.L352-.L230
+	.byte	3,1,1,5,19,9
+	.half	.L44-.L352
+	.byte	3,2,1,5,20,9
+	.half	.L354-.L44
+	.byte	3,1,1,5,12,9
+	.half	.L237-.L354
+	.byte	3,2,1,9
+	.half	.L238-.L237
+	.byte	3,1,1,5,36,9
+	.half	.L246-.L238
+	.byte	3,122,1,5,29,9
+	.half	.L43-.L246
+	.byte	1,7,9
+	.half	.L490-.L43
+	.byte	3,11,1,5,49,9
+	.half	.L353-.L490
+	.byte	1,5,19,9
+	.half	.L50-.L353
+	.byte	3,2,1,5,20,9
+	.half	.L370-.L50
+	.byte	3,1,1,5,12,9
+	.half	.L254-.L370
+	.byte	3,2,1,9
+	.half	.L255-.L254
+	.byte	3,1,1,5,56,9
+	.half	.L263-.L255
+	.byte	3,122,1,5,49,9
+	.half	.L49-.L263
+	.byte	1,5,46,7,9
+	.half	.L491-.L49
+	.byte	3,180,127,1,5,38,9
+	.half	.L25-.L491
+	.byte	1,5,12,7,9
+	.half	.L492-.L25
+	.byte	3,217,0,1,5,9,9
+	.half	.L386-.L492
+	.byte	3,2,1,5,32,7,9
+	.half	.L493-.L386
+	.byte	1,5,17,9
+	.half	.L494-.L493
+	.byte	3,2,1,5,14,9
+	.half	.L387-.L494
+	.byte	3,1,1,5,40,9
+	.half	.L388-.L387
+	.byte	1,5,16,9
+	.half	.L58-.L388
+	.byte	3,2,1,5,20,9
+	.half	.L495-.L58
+	.byte	1,5,9,9
+	.half	.L496-.L495
+	.byte	1,5,13,7,9
+	.half	.L497-.L496
+	.byte	3,1,1,5,43,9
+	.half	.L59-.L497
+	.byte	3,125,1,5,31,9
+	.half	.L57-.L59
+	.byte	1,5,40,9
+	.half	.L498-.L57
+	.byte	1,5,24,7,9
+	.half	.L60-.L498
+	.byte	3,6,1,5,7,9
+	.half	.L341-.L60
+	.byte	1,5,16,7,9
+	.half	.L499-.L341
+	.byte	3,1,1,5,3,9
+	.half	.L55-.L499
+	.byte	3,5,1,5,1,9
+	.half	.L38-.L55
+	.byte	3,1,1,7,9
+	.half	.L115-.L38
+	.byte	0,1,1
+.L472:
+	.sdecl	'.debug_ranges',debug,cluster('arm_mat_inverse_f32')
+	.sect	'.debug_ranges'
+.L114:
+	.word	-1,.L76,0,.L115-.L76,0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_add_f32')
+	.sect	'.debug_loc'
+.L67:
+	.word	-1,.L68,0,.L130-.L68
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L139:
+	.word	0,0
+.L138:
+	.word	-1,.L68,.L276-.L68,.L130-.L68
+	.half	1
+	.byte	95
+	.word	0,0
+.L134:
+	.word	-1,.L68,0,.L130-.L68
+	.half	1
+	.byte	102
+	.word	0,0
+.L135:
+	.word	-1,.L68,.L274-.L68,.L130-.L68
+	.half	1
+	.byte	111
+	.word	0,0
+.L136:
+	.word	-1,.L68,.L275-.L68,.L130-.L68
+	.half	1
+	.byte	98
+	.word	0,0
+.L137:
+	.word	-1,.L68,.L273-.L68,.L130-.L68
+	.half	1
+	.byte	101
+	.word	0,0
+.L132:
+	.word	-1,.L68,0,.L130-.L68
+	.half	1
+	.byte	100
+	.word	0,0
+.L133:
+	.word	-1,.L68,0,.L273-.L68
+	.half	1
+	.byte	101
+	.word	0,0
+.L140:
+	.word	-1,.L68,.L277-.L68,.L130-.L68
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_init_f32')
+	.sect	'.debug_loc'
+.L124:
+	.word	-1,.L66,0,.L123-.L66
+	.half	1
+	.byte	100
+	.word	0,0
+.L65:
+	.word	-1,.L66,0,.L123-.L66
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L127:
+	.word	-1,.L66,0,.L123-.L66
+	.half	1
+	.byte	85
+	.word	0,0
+.L126:
+	.word	-1,.L66,0,.L123-.L66
+	.half	1
+	.byte	84
+	.word	0,0
+.L128:
+	.word	-1,.L66,0,.L123-.L66
+	.half	1
+	.byte	101
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_inverse_f32')
+	.sect	'.debug_loc'
+.L75:
+	.word	-1,.L76,0,.L183-.L76
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L200:
+	.word	-1,.L76,.L314-.L76,.L183-.L76
+	.half	1
+	.byte	87
+	.word	0,0
+.L225:
+	.word	-1,.L76,.L343-.L76,.L344-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L232:
+	.word	-1,.L76,.L344-.L76,.L44-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L240:
+	.word	-1,.L76,.L355-.L76,.L356-.L76
+	.half	1
+	.byte	111
+	.word	.L362-.L76,.L363-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L248:
+	.word	-1,.L76,.L363-.L76,.L43-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L257:
+	.word	-1,.L76,.L371-.L76,.L372-.L76
+	.half	1
+	.byte	111
+	.word	.L378-.L76,.L379-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L265:
+	.word	-1,.L76,.L379-.L76,.L49-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L241:
+	.word	-1,.L76,.L357-.L76,.L358-.L76
+	.half	1
+	.byte	98
+	.word	.L364-.L76,.L365-.L76
+	.half	1
+	.byte	98
+	.word	0,0
+.L249:
+	.word	-1,.L76,.L365-.L76,.L43-.L76
+	.half	1
+	.byte	98
+	.word	0,0
+.L258:
+	.word	-1,.L76,.L373-.L76,.L374-.L76
+	.half	1
+	.byte	98
+	.word	.L380-.L76,.L381-.L76
+	.half	1
+	.byte	98
+	.word	0,0
+.L266:
+	.word	-1,.L76,.L381-.L76,.L49-.L76
+	.half	1
+	.byte	98
+	.word	0,0
+.L207:
+	.word	-1,.L76,.L326-.L76,.L327-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L216:
+	.word	-1,.L76,.L327-.L76,.L30-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L208:
+	.word	-1,.L76,.L328-.L76,.L329-.L76
+	.half	1
+	.byte	98
+	.word	0,0
+.L217:
+	.word	-1,.L76,.L329-.L76,.L30-.L76
+	.half	1
+	.byte	98
+	.word	0,0
+.L198:
+	.word	-1,.L76,.L309-.L76,.L33-.L76
+	.half	1
+	.byte	84
+	.word	.L30-.L76,.L183-.L76
+	.half	1
+	.byte	84
+	.word	0,0
+.L195:
+	.word	-1,.L76,.L388-.L76,.L55-.L76
+	.half	1
+	.byte	81
+	.word	0,0
+.L199:
+	.word	-1,.L76,.L311-.L76,.L312-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L313-.L76,.L19-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L212:
+	.word	-1,.L76,.L330-.L76,.L35-.L76
+	.half	1
+	.byte	81
+	.word	0,0
+.L221:
+	.word	0,0
+.L229:
+	.word	-1,.L76,.L347-.L76,.L348-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L236:
+	.word	0,0
+.L245:
+	.word	-1,.L76,.L361-.L76,.L48-.L76
+	.half	1
+	.byte	88
+	.word	0,0
+.L253:
+	.word	0,0
+.L262:
+	.word	-1,.L76,.L377-.L76,.L49-.L76
+	.half	1
+	.byte	89
+	.word	0,0
+.L270:
+	.word	0,0
+.L192:
+	.word	-1,.L76,.L320-.L76,.L27-.L76
+	.half	1
+	.byte	81
+	.word	0,0
+.L190:
+	.word	-1,.L76,.L306-.L76,.L183-.L76
+	.half	1
+	.byte	83
+	.word	0,0
+.L210:
+	.word	-1,.L76,.L318-.L76,.L33-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L219:
+	.word	-1,.L76,.L336-.L76,.L30-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L227:
+	.word	-1,.L76,.L345-.L76,.L346-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L234:
+	.word	-1,.L76,.L348-.L76,.L44-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L243:
+	.word	-1,.L76,.L359-.L76,.L360-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L251:
+	.word	-1,.L76,.L368-.L76,.L43-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L260:
+	.word	-1,.L76,.L375-.L76,.L376-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L268:
+	.word	-1,.L76,.L384-.L76,.L49-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L189:
+	.word	-1,.L76,.L304-.L76,.L305-.L76
+	.half	1
+	.byte	82
+	.word	.L36-.L76,.L341-.L76
+	.half	1
+	.byte	82
+	.word	0,0
+.L185:
+	.word	-1,.L76,0,.L183-.L76
+	.half	1
+	.byte	101
+	.word	0,0
+.L186:
+	.word	-1,.L76,.L387-.L76,.L55-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L187:
+	.word	-1,.L76,.L303-.L76,.L26-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L184:
+	.word	-1,.L76,0,.L183-.L76
+	.half	1
+	.byte	100
+	.word	0,0
+.L188:
+	.word	-1,.L76,.L315-.L76,.L28-.L76
+	.half	1
+	.byte	111
+	.word	.L319-.L76,.L27-.L76
+	.half	1
+	.byte	111
+	.word	.L354-.L76,.L355-.L76
+	.half	1
+	.byte	111
+	.word	.L370-.L76,.L371-.L76
+	.half	1
+	.byte	111
+	.word	0,0
+.L191:
+	.word	-1,.L76,.L307-.L76,.L308-.L76
+	.half	1
+	.byte	85
+	.word	.L308-.L76,.L28-.L76
+	.half	1
+	.byte	89
+	.word	.L321-.L76,.L322-.L76
+	.half	1
+	.byte	89
+	.word	.L323-.L76,.L324-.L76
+	.half	1
+	.byte	89
+	.word	.L339-.L76,.L340-.L76
+	.half	1
+	.byte	89
+	.word	.L342-.L76,.L222-.L76
+	.half	1
+	.byte	89
+	.word	.L222-.L76,.L38-.L76
+	.half	1
+	.byte	85
+	.word	0,0
+.L194:
+	.word	0,0
+.L197:
+	.word	-1,.L76,.L310-.L76,.L26-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L196:
+	.word	-1,.L76,.L317-.L76,.L318-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L352-.L76,.L353-.L76
+	.half	1
+	.byte	86
+	.word	.L353-.L76,.L25-.L76
+	.half	1
+	.byte	88
+	.word	0,0
+.L193:
+	.word	-1,.L76,.L316-.L76,.L28-.L76
+	.half	1
+	.byte	88
+	.word	.L325-.L76,.L202-.L76
+	.half	1
+	.byte	88
+	.word	.L331-.L76,.L332-.L76
+	.half	1
+	.byte	88
+	.word	0,0
+.L201:
+	.word	-1,.L76,.L386-.L76,.L38-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L389-.L76,.L38-.L76
+	.half	1
+	.byte	82
+	.word	0,0
+.L206:
+	.word	-1,.L76,.L335-.L76,.L32-.L76
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L215:
+	.word	-1,.L76,.L338-.L76,.L34-.L76
+	.half	1
+	.byte	81
+	.word	0,0
+.L205:
+	.word	-1,.L76,.L333-.L76,.L334-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L214:
+	.word	-1,.L76,.L337-.L76,.L30-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L224:
+	.word	-1,.L76,.L349-.L76,.L350-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L231:
+	.word	-1,.L76,.L351-.L76,.L44-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L239:
+	.word	-1,.L76,.L366-.L76,.L367-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L247:
+	.word	-1,.L76,.L369-.L76,.L43-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L256:
+	.word	-1,.L76,.L382-.L76,.L383-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+.L264:
+	.word	-1,.L76,.L385-.L76,.L49-.L76
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_mult_f32')
+	.sect	'.debug_loc'
+.L71:
+	.word	-1,.L72,0,.L151-.L72
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L166:
+	.word	-1,.L72,.L291-.L72,.L151-.L72
+	.half	1
+	.byte	84
+	.word	0,0
+.L169:
+	.word	-1,.L72,.L294-.L72,.L151-.L72
+	.half	1
+	.byte	86
+	.word	0,0
+.L167:
+	.word	-1,.L72,.L10-.L72,.L151-.L72
+	.half	1
+	.byte	83
+	.word	0,0
+.L165:
+	.word	-1,.L72,.L288-.L72,.L289-.L72
+	.half	1
+	.byte	82
+	.word	0,0
+.L164:
+	.word	-1,.L72,.L287-.L72,.L151-.L72
+	.half	1
+	.byte	81
+	.word	0,0
+.L163:
+	.word	-1,.L72,.L286-.L72,.L151-.L72
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L154:
+	.word	-1,.L72,0,.L283-.L72
+	.half	1
+	.byte	102
+	.word	0,0
+.L155:
+	.word	-1,.L72,.L293-.L72,.L151-.L72
+	.half	1
+	.byte	108
+	.word	0,0
+.L156:
+	.word	-1,.L72,.L11-.L72,.L151-.L72
+	.half	1
+	.byte	103
+	.word	0,0
+.L157:
+	.word	-1,.L72,.L284-.L72,.L151-.L72
+	.half	1
+	.byte	111
+	.word	0,0
+.L158:
+	.word	-1,.L72,.L285-.L72,.L151-.L72
+	.half	1
+	.byte	98
+	.word	0,0
+.L159:
+	.word	-1,.L72,.L283-.L72,.L151-.L72
+	.half	1
+	.byte	102
+	.word	0,0
+.L152:
+	.word	-1,.L72,0,.L10-.L72
+	.half	1
+	.byte	100
+	.word	0,0
+.L153:
+	.word	-1,.L72,0,.L151-.L72
+	.half	1
+	.byte	101
+	.word	0,0
+.L160:
+	.word	-1,.L72,.L290-.L72,.L151-.L72
+	.half	1
+	.byte	100
+	.word	0,0
+.L168:
+	.word	0,0
+.L170:
+	.word	-1,.L72,.L289-.L72,.L151-.L72
+	.half	1
+	.byte	82
+	.word	0,0
+.L162:
+	.word	-1,.L72,.L292-.L72,.L151-.L72
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_reset_f32')
+	.sect	'.debug_loc'
+.L63:
+	.word	-1,.L64,0,.L116-.L64
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L122:
+	.word	-1,.L64,.L272-.L64,.L116-.L64
+	.half	1
+	.byte	95
+	.word	0,0
+.L120:
+	.word	-1,.L64,.L271-.L64,.L116-.L64
+	.half	1
+	.byte	111
+	.word	0,0
+.L118:
+	.word	-1,.L64,0,.L116-.L64
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_sub_f32')
+	.sect	'.debug_loc'
+.L69:
+	.word	-1,.L70,0,.L141-.L70
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L149:
+	.word	0,0
+.L148:
+	.word	-1,.L70,.L281-.L70,.L141-.L70
+	.half	1
+	.byte	95
+	.word	0,0
+.L144:
+	.word	-1,.L70,0,.L141-.L70
+	.half	1
+	.byte	102
+	.word	0,0
+.L145:
+	.word	-1,.L70,.L279-.L70,.L141-.L70
+	.half	1
+	.byte	111
+	.word	0,0
+.L146:
+	.word	-1,.L70,.L280-.L70,.L141-.L70
+	.half	1
+	.byte	98
+	.word	0,0
+.L147:
+	.word	-1,.L70,.L278-.L70,.L141-.L70
+	.half	1
+	.byte	101
+	.word	0,0
+.L142:
+	.word	-1,.L70,0,.L141-.L70
+	.half	1
+	.byte	100
+	.word	0,0
+.L143:
+	.word	-1,.L70,0,.L278-.L70
+	.half	1
+	.byte	101
+	.word	0,0
+.L150:
+	.word	-1,.L70,.L282-.L70,.L141-.L70
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('arm_mat_trans_f32')
+	.sect	'.debug_loc'
+.L73:
+	.word	-1,.L74,0,.L171-.L74
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L179:
+	.word	-1,.L74,.L302-.L74,.L171-.L74
+	.half	1
+	.byte	84
+	.word	0,0
+.L181:
+	.word	-1,.L74,.L15-.L74,.L171-.L74
+	.half	1
+	.byte	83
+	.word	0,0
+.L178:
+	.word	-1,.L74,.L298-.L74,.L171-.L74
+	.half	1
+	.byte	81
+	.word	0,0
+.L177:
+	.word	-1,.L74,.L297-.L74,.L171-.L74
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L173:
+	.word	-1,.L74,0,.L171-.L74
+	.half	1
+	.byte	101
+	.word	0,0
+.L174:
+	.word	-1,.L74,.L295-.L74,.L171-.L74
+	.half	1
+	.byte	111
+	.word	0,0
+.L175:
+	.word	-1,.L74,.L296-.L74,.L171-.L74
+	.half	1
+	.byte	98
+	.word	0,0
+.L172:
+	.word	-1,.L74,0,.L15-.L74
+	.half	1
+	.byte	100
+	.word	0,0
+.L176:
+	.word	-1,.L74,.L301-.L74,.L171-.L74
+	.half	1
+	.byte	100
+	.word	0,0
+.L180:
+	.word	-1,.L74,.L299-.L74,.L300-.L74
+	.half	1
+	.byte	82
+	.word	0,0
+.L182:
+	.word	-1,.L74,.L300-.L74,.L171-.L74
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L500:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_reset_f32')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L500,.L64,.L116-.L64
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_init_f32')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L500,.L66,.L123-.L66
+	.byte	8,18,8,19,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_add_f32')
+	.sect	'.debug_frame'
+	.word	16
+	.word	.L500,.L68,.L130-.L68
+	.byte	8,19,8,23
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_sub_f32')
+	.sect	'.debug_frame'
+	.word	16
+	.word	.L500,.L70,.L141-.L70
+	.byte	8,19,8,23
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_mult_f32')
+	.sect	'.debug_frame'
+	.word	16
+	.word	.L500,.L72,.L151-.L72
+	.byte	8,19,0,0
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_trans_f32')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L500,.L74,.L171-.L74
+	.byte	8,19,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('arm_mat_inverse_f32')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L500,.L76,.L183-.L76
+	.byte	8,19,8,22,8,23,0,0
+	; Module end

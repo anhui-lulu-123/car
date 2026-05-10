@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//code/Attitude.c=UTF-8
+encoding//code/Control.c=UTF-8
+encoding//code/Filter.c=UTF-8
+encoding//code/INS_Nav.h=UTF-8
+encoding//code/My_Math.c=UTF-8
+encoding//code/PID.c=UTF-8
+encoding//code/QuaternionEKF.c=UTF-8
+encoding//code/Servo.c=UTF-8
+encoding//libraries/zf_driver/zf_driver_encoder.c=GBK
+encoding/<project>=UTF-8
