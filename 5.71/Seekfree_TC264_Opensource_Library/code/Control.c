@@ -6,8 +6,43 @@
  */
 
 #include "Control.h"
+#include "PID.h"
+#include "small_driver_uart_control.h"
 
+#define SPEED_FILTER_NUM 5
+#define HIGH_SPEED_TARGET  (-80)   // 快速行驶
+#define SPEED_KP           0.3f
+#define SPEED_KI           0.05f
+#define LOW_SPEED_TARGET   (-30)   // 慢速精确
+#define LOW_SPEED_KP       0.2f
+#define LOW_SPEED_KI       0.02f
 
+static int32 speed_filtered(int32 raw)
+{
+    static int32 buf[SPEED_FILTER_NUM];
+    static uint8 index = 0;
+    static bool init = false;
+    int32 sum = 0;
+
+    if (!init)
+    {
+        init = true;
+        for (uint8 i = 0; i < SPEED_FILTER_NUM; i++)
+        {
+            buf[i] = raw;
+        }
+    }
+
+    buf[index] = raw;
+    index = (index + 1) % SPEED_FILTER_NUM;
+
+    for (uint8 i = 0; i < SPEED_FILTER_NUM; i++)
+    {
+        sum += buf[i];
+    }
+
+    return sum / SPEED_FILTER_NUM;
+}
 
 float Balance_init_zero=-0.7f;  // 向右补偿左倾偏置，测试中
 
@@ -101,14 +136,51 @@ int16 target_speed = 1000;
 
 void Back_Motor_Control(void)
 {
+    int32 raw_speed = 0;
+    int32 filtered_speed_value;
+    static int8 last_speed_mode = -1;
+    int8 current_speed_mode = car_mode_switch_num == 0 ? 0 : 1;
+
+    if (abs(motor_value.receive_left_speed_data) > 1 && abs(motor_value.receive_right_speed_data) > 1)
+    {
+        raw_speed = (motor_value.receive_left_speed_data + motor_value.receive_right_speed_data) / 2;
+    }
+    else if (abs(motor_value.receive_left_speed_data) > 1)
+    {
+        raw_speed = motor_value.receive_left_speed_data;
+    }
+    else if (abs(motor_value.receive_right_speed_data) > 1)
+    {
+        raw_speed = motor_value.receive_right_speed_data;
+    }
+
+    filtered_speed_value = speed_filtered(raw_speed);
+
+    if (current_speed_mode != last_speed_mode)
+    {
+        if (current_speed_mode == 0)
+        {
+            PID_Reset(&BackSpeed_Pid, LOW_SPEED_KP, LOW_SPEED_KI, 0.0f);
+        }
+        else
+        {
+            PID_Reset(&BackSpeed_Pid, SPEED_KP, SPEED_KI, 0.0f);
+        }
+        pidClear(&BackSpeed_Pid);
+        last_speed_mode = current_speed_mode;
+    }
+
     switch (Bike_State)
     {
         case Null:
             CYT2_S_motor_ctrl(0);
             break;
         case Run:
-            CYT2_S_motor_ctrl((int32)target_speed);
+        {
+            float speed_output = PID_Calculate(&BackSpeed_Pid, (float)target_speed, (float)filtered_speed_value);
+            CYT2_S_motor_ctrl((int32)speed_output);
             break;
+        }
         case Stop:
             CYT2_S_motor_ctrl(0);
             break;

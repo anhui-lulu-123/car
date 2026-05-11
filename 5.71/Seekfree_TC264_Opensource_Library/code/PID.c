@@ -6,6 +6,14 @@
  */
 
 #include "PID.h"
+
+#define HIGH_SPEED_TARGET (-80)   // 快速行驶
+#define SPEED_KP          0.3f
+#define SPEED_KI          0.05f
+#define LOW_SPEED_TARGET  (-30)   // 慢速精确
+#define LOW_SPEED_KP      0.2f
+#define LOW_SPEED_KI      0.02f
+
 /* 预锟斤拷锟街疚伙拷锟斤拷锟斤拷锟斤拷锟斤拷诓锟酵拷锟絇ID锟斤拷锟斤拷预锟借） */
 bool preset1 = false, preset2 = false, preset3 = false;
 /* ========= PID锟斤拷锟斤拷锟斤拷实锟斤拷锟斤拷锟斤拷 ========= */
@@ -223,6 +231,6 @@ void pidAllInit(void)
     PID_Init(&Balance_angular_velocityPid, POSITION_PID, (float)SERVO_DUTY_MAX, 600, 8.0f, 0.0f, 0.0f);
 
 
-    // BackSpeed_Pid 涓嶅啀浣跨敤锛堥┍鍔ㄦ澘鍐呴儴宸叉湁閫熷害闂幆锛岀洿鎺ョ敤 small_driver_set_speed锛�
-    PID_Init(&BackSpeed_Pid, DELTA_PID, 5000, 0.0, 0.0, 0.0, 0.0);
+    // BackSpeed_Pid 用于后轮速度回路增量PID，增加速度反馈滤波
+    PID_Init(&BackSpeed_Pid, DELTA_PID, 2000, 0.0, SPEED_KP, SPEED_KI, 0.0);
 }
