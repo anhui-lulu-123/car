@@ -47,6 +47,9 @@ int core0_main(void)
     gpio_init(BUZZER_PIN, GPO, GPIO_LOW, GPO_PUSH_PULL);
     cpu_wait_event_ready();
 
+    // 添加调试输出：确认初始化完成
+    small_driver_send_string("Init complete, entering main loop\n");
+
     while (TRUE)
     {
         /* ===== 拨码开关+KEY2：切换模式 ===== */
@@ -223,12 +226,20 @@ int core0_main(void)
             Direction_Pid.pos_out = nav_enabled ? nav_direction_bias : 0.0f;
         }
 
-        /* 电机指令已在 1ms 中断中发送，这里只请求速度反馈 */
-        small_driver_get_speed();
-
+        /* 电机指令已在 7ms 中断中发送，20ms 中断负责速度请求 */
+        
         /* ===== TFT 显示 ===== */
         tft180_show_string(0,  0, exam2_mode_active ? "MODE:EXAM2" : (car_mode_switch_num == 0 ? "MODE:SLOW" : "MODE:FAST"));
         tft180_show_string(88, 0, "MDBG4");
+
+        // 添加调试输出：确认显示更新
+        static uint32 loop_count = 0;
+        if (loop_count % 100 == 0) {  // 每100次循环输出一次
+            small_driver_send_string("Display updated, loop: ");
+            small_driver_send_int(loop_count);
+            small_driver_send_string("\n");
+        }
+        loop_count++;
 
         tft180_show_string(0,  20, "Pit:");
         tft180_show_float (32, 20, QEKF_INS.Pitch, 2, 2);
